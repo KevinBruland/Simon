@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Damion|Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="gameContainer">
+        <div class="center">
+            <div id="gameBoard">
+                <div class="color" id="green" value="0"></div>
+                <div class="color" id="red" value="1"></div>
+                <div class="color" id="yellow" value="2"></div>
+                <div class="color" id="blue" value="3"></div>
+                <div id="centerCircle">
+                    <div id="centerContent">
+                        <div class="name-container">
+                            <h1 class="title-text">SIMON</h1>
+                        </div>
+                        <div class="button-group">
+                            <div>
+                                <button id="start" class="push-button"></button>
+                                <p>Start</p>
+                            </div>
+                            <div>
+                                <label class="strict-switch">
+                <input id="strict" type="checkbox">
+                <div class="strict-slider"></div>
+              </label>
+                                <p>Strict</p>
+                            </div>
+                            <div>
+                                <button id="reset" class="push-button"></button>
+                                <p>Reset</p>
+                            </div>
+                        </div>
+                        <div id="count">00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
